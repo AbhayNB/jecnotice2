@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>
+
+    </title>
+</head>
+<body>
+    {% for post in file %}
+    <h2>{{post.Topic}}</h2>
+    <p>{{post.Name}}</p>
+    <a href="{{post.File.url}}" download >Download File</a>
+    <p>{{post.Disc}}</p>
+    {% endfor %}
+</body>
+</html>
