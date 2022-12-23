@@ -1,1 +1,1 @@
-web:  gunicorn jecnotice.wsgi --log-file -
+web: gunicorn jecnotice.wsgi
